@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
   const data = {
       basicas: ["Comida", "Agua", "Baño", "Médico", "Descanso", "Lavar manos", "Cambio actividad", "Silencio", "Ayuda", "Calor", "Frío"],
-      emociones: ["Feliz", "Triste", "Enojado", "Sorprendido", "Ansioso", "Cansado", "Confundido", "Asustado", "Aburrido", "Interés", "Cariño", "Pena"],
-      escolar: ["Libro", "Pizarrón", "Mochila", "Lápiz", ""]
+      emociones: ["Feliz", "Triste", "Enojado", "Sorprendido", "Nervioso", "Cansado", "Confundido", "Asustado", "Aburrido", "Interés", "Cariño"],
+      escolar: ["Libro", "Mochila", "Lápiz", "Libreta", "Goma", "Tijeras", "Material", "Repetir", "Ayuda", "Qué significa", "Terminé mi trabajo", "Qué hago"]
   };
 
   function tarjeta(item, index, categoria) {
